@@ -51,6 +51,7 @@ public class TestMockAnalyzer extends BaseTokenStreamTestCase {
   /** Test a configuration that behaves a lot like WhitespaceAnalyzer */
   public void testWhitespace() throws Exception {
     Analyzer a = new MockAnalyzer(random());
+    assertEquals(100, 100);
     assertAnalyzesTo(
         a,
         "A bc defg hiJklmn opqrstuv wxy z ",
