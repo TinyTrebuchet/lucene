@@ -1,0 +1,19 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="TestMockAnalyzer.testWhitespace" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+    <module name="lucene-root.lucene.test-framework.test" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="org.apache.lucene.tests.analysis.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <option name="PACKAGE_NAME" value="org.apache.lucene.tests.analysis" />
+    <option name="MAIN_CLASS_NAME" value="org.apache.lucene.tests.analysis.TestMockAnalyzer" />
+    <option name="METHOD_NAME" value="testWhitespace" />
+    <option name="TEST_OBJECT" value="method" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+      <option name="MakeProject" enabled="true" />
+    </method>
+  </configuration>
+</component>

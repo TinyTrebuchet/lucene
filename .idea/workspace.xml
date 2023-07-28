@@ -64,7 +64,16 @@
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.TestMockAnalyzer.testWhitespace">
+  <component name="RunManager" selected="JUnit.TestMockAnalyzer.testWhitespace">
+    <configuration name="build" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="lucene-root" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="MakeProject" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestMockAnalyzer.testWhitespace" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -89,7 +98,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="TestMockAnalyzer.testKeyword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMockAnalyzer.testSimple" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lucene-root.lucene.test-framework.test" />
       <extension name="coverage">
         <pattern>
@@ -99,7 +108,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.apache.lucene.tests.analysis" />
       <option name="MAIN_CLASS_NAME" value="org.apache.lucene.tests.analysis.TestMockAnalyzer" />
-      <option name="METHOD_NAME" value="testKeyword" />
+      <option name="METHOD_NAME" value="testSimple" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,22 +146,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMockAnalyzer.testWhitespace" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lucene-root.lucene.test-framework.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.apache.lucene.tests.analysis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.apache.lucene.tests.analysis" />
-      <option name="MAIN_CLASS_NAME" value="org.apache.lucene.tests.analysis.TestMockAnalyzer" />
-      <option name="METHOD_NAME" value="testWhitespace" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="lucene" />
       <method v="2">
@@ -166,13 +159,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.build" />
+      <item itemvalue="Gradle.TestMockAnalyzer.testWhitespace" />
+      <item itemvalue="JUnit.TestMockAnalyzer.testWhitespace" />
+      <item itemvalue="JUnit.TestMockAnalyzer.testSimple" />
+      <item itemvalue="JUnit.TestMockAnalyzer.testTwoChars" />
+      <item itemvalue="JUnit.TestMockAnalyzer.testWhitespace (1)" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TestMockAnalyzer.testWhitespace" />
         <item itemvalue="JUnit.TestMockAnalyzer.testWhitespace" />
+        <item itemvalue="JUnit.TestMockAnalyzer.testSimple" />
+        <item itemvalue="Gradle.TestMockAnalyzer.testWhitespace" />
         <item itemvalue="JUnit.TestMockAnalyzer.testWhitespace (1)" />
         <item itemvalue="JUnit.TestMockAnalyzer.testTwoChars" />
-        <item itemvalue="JUnit.TestMockAnalyzer.testKeyword" />
       </list>
     </recent_temporary>
   </component>
