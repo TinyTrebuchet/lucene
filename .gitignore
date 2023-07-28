@@ -3,12 +3,13 @@
 /gradle.properties
 .gradle/
 build/
+/buildSrc/out
 
 # Ignore gradle wrapper jar.
 gradle/wrapper/gradle-wrapper.jar
 
 # IntelliJ IDEA
-/.idea/
+#/.idea/
 #    IntelliJ creates this folder, ignore.
 /dev-tools/missing-doclet/out/
 

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/dev-tools/missing-doclet" name="missing-doclet">
+                <projects>
+                  <project path="$PROJECT_DIR$/dev-tools/missing-doclet" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/buildSrc" />
+            <option value="$PROJECT_DIR$/dev-tools/missing-doclet" />
+            <option value="$PROJECT_DIR$/lucene" />
+            <option value="$PROJECT_DIR$/lucene/analysis" />
+            <option value="$PROJECT_DIR$/lucene/analysis.tests" />
+            <option value="$PROJECT_DIR$/lucene/analysis/common" />
+            <option value="$PROJECT_DIR$/lucene/analysis/icu" />
+            <option value="$PROJECT_DIR$/lucene/analysis/kuromoji" />
+            <option value="$PROJECT_DIR$/lucene/analysis/morfologik" />
+            <option value="$PROJECT_DIR$/lucene/analysis/morfologik.tests" />
+            <option value="$PROJECT_DIR$/lucene/analysis/nori" />
+            <option value="$PROJECT_DIR$/lucene/analysis/opennlp" />
+            <option value="$PROJECT_DIR$/lucene/analysis/phonetic" />
+            <option value="$PROJECT_DIR$/lucene/analysis/smartcn" />
+            <option value="$PROJECT_DIR$/lucene/analysis/stempel" />
+            <option value="$PROJECT_DIR$/lucene/backward-codecs" />
+            <option value="$PROJECT_DIR$/lucene/benchmark" />
+            <option value="$PROJECT_DIR$/lucene/classification" />
+            <option value="$PROJECT_DIR$/lucene/codecs" />
+            <option value="$PROJECT_DIR$/lucene/core" />
+            <option value="$PROJECT_DIR$/lucene/core.tests" />
+            <option value="$PROJECT_DIR$/lucene/demo" />
+            <option value="$PROJECT_DIR$/lucene/distribution" />
+            <option value="$PROJECT_DIR$/lucene/distribution.tests" />
+            <option value="$PROJECT_DIR$/lucene/documentation" />
+            <option value="$PROJECT_DIR$/lucene/expressions" />
+            <option value="$PROJECT_DIR$/lucene/facet" />
+            <option value="$PROJECT_DIR$/lucene/grouping" />
+            <option value="$PROJECT_DIR$/lucene/highlighter" />
+            <option value="$PROJECT_DIR$/lucene/join" />
+            <option value="$PROJECT_DIR$/lucene/luke" />
+            <option value="$PROJECT_DIR$/lucene/memory" />
+            <option value="$PROJECT_DIR$/lucene/misc" />
+            <option value="$PROJECT_DIR$/lucene/monitor" />
+            <option value="$PROJECT_DIR$/lucene/queries" />
+            <option value="$PROJECT_DIR$/lucene/queryparser" />
+            <option value="$PROJECT_DIR$/lucene/replicator" />
+            <option value="$PROJECT_DIR$/lucene/sandbox" />
+            <option value="$PROJECT_DIR$/lucene/spatial-extras" />
+            <option value="$PROJECT_DIR$/lucene/spatial-test-fixtures" />
+            <option value="$PROJECT_DIR$/lucene/spatial3d" />
+            <option value="$PROJECT_DIR$/lucene/suggest" />
+            <option value="$PROJECT_DIR$/lucene/test-framework" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
